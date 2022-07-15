@@ -1,0 +1,42 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.graph {
+  height: 100%;
+  width: 100%;
+}
+
+.modal {
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  background-color: blue;
+}
+.visibleNode {
+  border-radius: 9999px;
+}
+.rounded-img {
+  border-radius: 9999px;
+}
